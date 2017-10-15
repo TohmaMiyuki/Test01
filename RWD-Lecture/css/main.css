@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css?family=Modak');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Catamaran');
+
+
+*{
+/*    font-family: 'Modak', cursive;*/
+    font-family: 'Baloo Tammudu', cursive; 
+}
+
+
+
+
+/*    <!--    navbar-->*/
+    
+.navbar-full {
+    border-radius: 0px;
+    margin-bottom: 0px;
+} 
+    
+/*    <!--    cover-->*/
+
+
+.cover{
+    
+    background: url(../img/background/nekopara01.jpg);
+    background-size:auto;
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.cover i {
+    font-size: 65px;
+}
+
+    /*title*/
+
+.mainInfo{
+    text-align: center;
+    color: orangered;
+    margin: 0 auto;
+    padding-top: 15%;
+    width: 1080px;
+    max-width: 80%;
+}
+
+
+
+h1{
+    padding: 0;
+}
+
+.coverH1{
+    font-size: 100px;
+    margin: 0;
+}
+
+
+.coverH2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.coverH2:after{
+    content: "";
+    display: block;
+    width: 90%;
+    height: 1px;
+    background: #fff;
+    margin: 10px auto 20px auto;
+}
+
+    /*form*/
+.coverForm{
+    margin: 0 auto;
+    width: 350px;
+}
+
+.btnSpacing{
+    margin: 5px;
+}
+
+    /*downward Arrow*/
+.arrow{
+    margin: 0 auto;
+    width: 15%;
+    text-align: center;
+}
+
+.arrow i{
+    font-size: 40px;
+    
+    color: white;
+    
+}
+
+/*    <!--   break-->*/
+
+.break{
+    
+    width: 100%;
+    background-color:black;
+    
+}
+
+.break h3{
+    text-align: center;
+    margin: 0;
+    padding: 12px ;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+}
+
+/*    <!--   slider -->*/
+
+.slider{
+    height:600px;
+}
+
+/*    <!--   job-->*/
+
+
+.container{  
+    margin-top: 20px;
+    width: 99%;
+    background: url(../img/background/nekoparaova.jpg);
+}
+
+
+.thumbnailneko{    
+    background-color: rgba(255,255,255,0.5);
+}
+
+.paginationNeko{
+    
+}
+
+.copyright{
+    font-size: 26px;
+    color: orangered;
+    text-align: center;
+}
+
